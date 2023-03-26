@@ -1,0 +1,23 @@
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    input {
+        display: none;
+    }
+    label {
+        flex-basis: 20%;
+        order: 1;
+
+        @include color (black, white) ;
+        @include font($ff-ss, 1rem, 900) ;
+
+        figure {
+
+            figcaption {
+                display: none;
+                padding-block: 0.2rem;
+            }
+        }
+    }
+}

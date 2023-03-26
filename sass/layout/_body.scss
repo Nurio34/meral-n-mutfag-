@@ -1,0 +1,7 @@
+
+body {
+    @include font(serif,0.8rem,500) ;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    background-color: black;
+}

@@ -1,0 +1,74 @@
+
+header {
+    border-bottom: 3px solid white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-block: 0.4rem;
+
+    input {
+        display: none;
+    }
+    .kategori-1 {
+        @include color (darken(pink,23), complement(pink)) ;
+        padding: 0.1rem 0.2rem ;
+        border-radius: 50vw;
+
+        &:hover {
+            @include color ( complement(pink),darken(pink,23),) ;
+            font-weight: 900;
+            transform: scale(1.1);
+        }
+    }
+    .ana-yemek {
+        display: flex;
+
+        position: relative;
+
+        .container-1 {
+            position: absolute;
+            bottom: 0;
+            transform: translate(0%,110%);
+
+            display: none;
+            gap: 0.2rem;
+
+            .kategori-2 {
+                @include color (darken(purple,0), complement(lighten(purple,60))) ;
+                padding: 0.4rem 1rem ;
+                border-radius: 50vw;
+
+                position: relative;
+
+                &:hover {
+                    @include color (complement(lighten(purple,60)), darken(purple,0)) ;
+                }
+
+                .container-2 {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    transform: translate(20%,100%);
+
+                    border-radius: 1rem;
+                    overflow: hidden;
+
+                    display: none;
+
+                    .kategori-3 {
+                        display: block;
+
+                        @include color (lighten(orange,30), complement(darken(orange,30))) ;
+                        padding: 0.6rem 1rem;
+
+                        &:hover {
+                            @include color (complement(darken(orange,30)), lighten(orange,30)) ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

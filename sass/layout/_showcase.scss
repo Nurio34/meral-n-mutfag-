@@ -1,0 +1,37 @@
+
+.showcase {
+    height: 160px;
+    @include font ($ff-1, 3rem, 700) ;
+    @include color (white, unset) ;
+    font-variant: normal;
+    line-height: 1;
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    z-index: -1;
+
+    .box-1 {
+        transform: translateX(-50%);
+        align-self: flex-end;
+
+        animation: 2s led infinite ease-in-out;
+    }
+    .box-2 {
+        transform: translateX(50%);
+        align-self: flex-start;
+
+        animation: 2s led infinite ease-in-out;
+    }
+}
+
+@keyframes led {
+    50% {
+        filter: drop-shadow(0 0 1px white)
+        drop-shadow(0 0 2px white)
+        drop-shadow(0 0 1px purple)
+        drop-shadow(0 0 2px purple)
+ ;
+    }
+}

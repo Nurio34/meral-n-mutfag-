@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b69fb5b7db.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b69fb5b7db.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+
+        <input type="radio" name="kategori-1" id="ana-yemek">
+        <label class="ana-yemek kategori-1" for="ana-yemek">ana yemek
+            <div class="container-1">
+                <input type="radio" name="kategori-2" id="sulu">
+                <label class="sulu kategori-2" for="sulu">sulu
+                    <div class="container-2 container-2-sulu" id="container-2-1">
+                        <input type="radio" name="kategori-3" id="sulu-kıymalı">
+                        <label class="kıymalı kategori-3" for="sulu-kıymalı">kıymalı</label>
+                        <input type="radio" name="kategori-3" id="sulu-etli">
+                        <label class="etli kategori-3" for="sulu-etli">etli</label>
+                        <input type="radio" name="kategori-3" id="sulu-tavuklu">
+                        <label class="tavuklu kategori-3" for="sulu-tavuklu">tavuklu</label>
+                    </div>
+                </label>
+
+                <input type="radio" name="kategori-2" id="kuru">
+                <label class="kuru kategori-2" for="kuru">kuru
+                    <div class="container-2 container-2-kuru" id="container-2-2">
+                        <input type="radio" name="kategori-3" id="kuru-kıymalı">
+                        <label class="kıymalı kategori-3" for="kuru-kıymalı">kıymalı</label>
+                        <input type="radio" name="kategori-3" id="kuru-etli">
+                        <label class="etli kategori-3" for="kuru-etli">etli</label>
+                        <input type="radio" name="kategori-3" id="kuru-tavuklu">
+                        <label class="tavuklu kategori-3" for="kuru-tavuklu">tavuklu</label>
+                    </div>
+                </label>
+            </div>
+        </label>
+
+        <input type="radio" name="kategori-1" id="ikinci-yemek">
+        <label class="ikinci-yemek kategori-1" for="ikinci-yemek">ikinci yemek</label>
+
+        <input type="radio" name="kategori-1" id="çorba">
+        <label class="çorba kategori-1" for="çorba">çorba</label>
+
+        <input type="radio" name="kategori-1" id="meze">
+        <label class="meze kategori-1" for="meze">meze</label>
+
+        <input type="radio" name="kategori-1" id="gün">
+        <label class="gün kategori-1" for="gün">gün menüsü</label>
+
+    </header>
+
+    <div class="showcase">
+        <div class="box-1">meral'in</div>
+        <div class="box-2">mutfağı</div>
+    </div>
+
+    <main id="main">
+
+        <input type="checkbox" name="yemek" id="biber-dolması">
+        <label for="biber-dolması" class="ana-kuru-kıymalı" >
+            <figure>
+                <img src="./image/biber-dolması.jpg" alt="">
+                <figcaption>biber dolması</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="bulgur-pilavı">
+        <label for="bulgur-pilavı" class="ikinci" >
+            <figure>
+                <img src="./image/bulgur-pilavı.jpg" alt="">
+                <figcaption>bulgur pilavı</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="burgu-makarna">
+        <label for="burgu-makarna" class="ikinci" >
+            <figure>
+                <img src="./image/burgu-makarna.jpg" alt="">
+                <figcaption>burgu makarna</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="börek&fırında-patates-püre">
+        <label for="börek&fırında-patates-püre" class="gün" >
+            <figure>
+                <img src="./image/börek&fırında-patates-püre.jpg" alt="">
+                <figcaption>börek&fırında patates püre</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="cacık">
+        <label for="cacık" class="meze" >
+            <figure>
+                <img src="./image/cacık.jpg" alt="">
+                <figcaption>cacık</figcaption>
+            </figure>
+        </label>
+        
+        <input type="checkbox" name="yemek" id="domates-çorbası">
+        <label for="domates-çorbası" class="çorba" >
+            <figure>
+                <img src="./image/domates-çorbası.jpg" alt="">
+                <figcaption>domates çorbası</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="erişte">
+        <label for="erişte" class="ikinci" >
+            <figure>
+                <img src="./image/erişte.jpg" alt="">
+                <figcaption>erişte</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="fırında-tavuk">
+        <label for="fırında-tavuk" class="ana-kuru-tavuklu" >
+            <figure>
+                <img src="./image/fırında-tavuk.jpg" alt="">
+                <figcaption>fırında tavuk</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="karnıyarık">
+        <label for="karnıyarık" class="ana-sulu-kıymalı" >
+            <figure>
+                <img src="./image/karnıyarık.jpg" alt="">
+                <figcaption>karnıyarık</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="kremalı-mantarlı-makarna">
+        <label for="kremalı-mantarlı-makarna" class="ikinci" >
+            <figure>
+                <img src="./image/kremalı-mantarlı-makarna.jpg" alt="">
+                <figcaption>kremalı mantarlı makarna</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="kurufasülye">
+        <label for="kurufasülye" class="ana-sulu-etli" >
+            <figure>
+                <img src="./image/kurufasülye.jpg" alt="">
+                <figcaption>kurufasülye</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="mardin-bulgur-pilavı">
+        <label for="mardin-bulgur-pilavı" class="ikinci" >
+            <figure>
+                <img src="./image/mardin-bulgur-pilavı.jpg" alt="">
+                <figcaption>mardin bulgur pilavı</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="mercimek">
+        <label for="mercimek" class="ana-sulu-kıymalı" >
+            <figure>
+                <img src="./image/mercimek.jpg" alt="">
+                <figcaption>mercimek</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="nohut">
+        <label for="nohut" class="ana-sulu-etli" >
+            <figure>
+                <img src="./image/nohut.jpg" alt="">
+                <figcaption>nohut</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="patates-köfte">
+        <label for="patates-köfte" class="ana-sulu-kıymalı" >
+            <figure>
+                <img src="./image/patates-köfte.jpg" alt="">
+                <figcaption>patates köfte</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="patlıcan-oturtma">
+        <label for="patlıcan-oturtma" class="ana-sulu-kıymalı" >
+            <figure>
+                <img src="./image/patlıcan-oturtma.jpg" alt="">
+                <figcaption>patlıcan-oturtma</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="pilav">
+        <label for="pilav" class="ikinci" >
+            <figure>
+                <img src="./image/pilav.jpg" alt="">
+                <figcaption>pilav</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="salata">
+        <label for="salata" class="meze" >
+            <figure>
+                <img src="./image/salata.jpg" alt="">
+                <figcaption>salata</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="yalancı-tarhana">
+        <label for="yalancı-tarhana" class="çorba" >
+            <figure>
+                <img src="./image/yalancı-tarhana.jpg" alt="">
+                <figcaption>yalancı tarhana</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="yayla-çorbası">
+        <label for="yayla-çorbası" class="çorba" >
+            <figure>
+                <img src="./image/yayla-çorbası.jpg" alt="">
+                <figcaption>yayla çorbası</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="yoğurtlu-pancar">
+        <label for="yoğurtlu-pancar" class="meze" >
+            <figure>
+                <img src="./image/yoğurtlu-pancar.jpg" alt="">
+                <figcaption>yoğurtlu pancar</figcaption>
+            </figure>
+        </label>
+
+        <input type="checkbox" name="yemek" id="ıspanak">
+        <label for="ıspanak" class="ana-sulu-kıymalı" >
+            <figure>
+                <img src="./image/ıspanak.jpg" alt="">
+                <figcaption>ıspanak</figcaption>
+            </figure>
+        </label>
+
+    </main>
+</body>
+
+</html>

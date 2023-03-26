@@ -1,0 +1,440 @@
+body:has(header #ana-yemek:checked) .ana-yemek .container-1{
+    display: flex;
+    opacity: 1;
+}
+
+
+.container-1:has(#sulu:checked) .container-2-sulu {
+    display: block;
+}
+.container-1:has(#kuru:checked) .container-2-kuru {
+    display: block;
+}
+
+
+body:has(.container-2-sulu #sulu-kıymalı:checked) main .ana-sulu-kıymalı {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(.container-2-sulu #sulu-etli:checked) main .ana-sulu-etli {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(.container-2-sulu #sulu-tavuklu:checked) main .ana-sulu-tavuklu {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+body:has(.container-2-kuru #kuru-kıymalı:checked)  main .ana-kuru-kıymalı {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(.container-2-kuru #kuru-etli:checked)  main .ana-kuru-etli {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(.container-2-kuru #kuru-tavuklu:checked)  main .ana-kuru-tavuklu {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+body:has(#ikinci-yemek:checked)  main .ikinci {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(#ikinci-yemek:checked) #main .ana-sulu-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#ikinci-yemek:checked) #main .ana-sulu-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#ikinci-yemek:checked) #main .ana-sulu-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#ikinci-yemek:checked) #main .ana-kuru-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#ikinci-yemek:checked) #main .ana-kuru-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#ikinci-yemek:checked) #main .ana-kuru-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+
+
+
+body:has(#çorba:checked)  main .çorba {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(#çorba:checked) #main .ana-sulu-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#çorba:checked) #main .ana-sulu-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#çorba:checked) #main .ana-sulu-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#çorba:checked) #main .ana-kuru-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#çorba:checked) #main .ana-kuru-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#çorba:checked) #main .ana-kuru-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+
+
+body:has(#meze:checked) main .meze {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(#meze:checked) #main .ana-sulu-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#meze:checked) #main .ana-sulu-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#meze:checked) #main .ana-sulu-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#meze:checked) #main .ana-kuru-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#meze:checked) #main .ana-kuru-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#meze:checked) #main .ana-kuru-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+
+
+body:has(#gün:checked) main .gün {
+    flex-basis: 100%;
+    order: 0;
+    margin: 0 1rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    filter: drop-shadow(0 0 6px white);
+    figcaption{
+        display: block;
+        text-align: center;
+    }
+}
+body:has(#gün:checked) #main .ana-sulu-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#gün:checked) #main .ana-sulu-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#gün:checked) #main .ana-sulu-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#gün:checked) #main .ana-kuru-kıymalı {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#gün:checked) #main .ana-kuru-etli {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+body:has(#gün:checked) #main .ana-kuru-tavuklu {
+    flex-basis: 20%;
+    order: 1;
+    margin: 0 ;
+    border-radius: 0;
+    filter: unset;
+    overflow: unset;
+    figcaption{
+        display: none;
+        text-align: center;
+    }
+}
+
+
+#main input:checked + label {
+    display: none;
+}
+
+
